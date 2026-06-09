@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <defs>
+    <radialGradient id="g" cx="50%" cy="32%" r="70%">
+      <stop offset="0%" stop-color="#2a2d52"></stop>
+      <stop offset="55%" stop-color="#191b24"></stop>
+      <stop offset="100%" stop-color="#101116"></stop>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#g)"></rect>
+  <g fill="rgba(255,255,255,0.12)">
+    <circle cx="200" cy="196" r="74"></circle>
+    <path d="M84 440 C 84 350 140 300 200 300 C 260 300 316 350 316 440 L 316 500 L 84 500 Z"></path>
+  </g>
+  <g fill="none" stroke="rgba(255,255,255,0.30)" stroke-width="3" stroke-linecap="round">
+    <circle cx="200" cy="430" r="22"></circle>
+    <path d="M191 430 h18 M200 421 v18"></path>
+  </g>
+  <text x="200" y="478" fill="rgba(255,255,255,0.42)" font-family="Inter, sans-serif" font-size="17" font-weight="600" text-anchor="middle" letter-spacing="0.3">Add your photo</text>
+</svg>
