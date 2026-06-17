@@ -1,0 +1,11 @@
+name = "spaceyadesign-enroll"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+AIRTABLE_BASE_ID = "appZnPya7eMqaxmq9"
+AIRTABLE_TABLE_ID = "tblGUfeuaVYPbcOA8"
+ALLOWED_ORIGINS = "https://spaceyadesign.co.ke"
+
+# Run this command to set the secret (not stored in code):
+# npx wrangler secret put AIRTABLE_TOKEN
