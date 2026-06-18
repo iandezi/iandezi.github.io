@@ -1,7 +1,5 @@
 (function () {
   var WORKER_URL = 'https://spaceyadesign-enroll.dezigner.workers.dev';
-  var REDIRECT_URL = 'https://app.payd.money/link/space-ya-design';
-
   var overlay = document.getElementById('enroll-modal');
   var form = document.getElementById('enroll-form');
   var submitBtn = form.querySelector('.form-submit');
@@ -90,9 +88,6 @@
       .then(function () {
         formBody.style.display = 'none';
         successEl.classList.add('show');
-        setTimeout(function () {
-          window.location.href = REDIRECT_URL;
-        }, 2000);
       })
       .catch(function () {
         alert('Something went wrong. Please try again.');
